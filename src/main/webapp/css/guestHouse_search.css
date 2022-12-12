@@ -1,0 +1,675 @@
+@charset "UTF-8";
+
+.area_list {
+	position: absolute;
+	z-index: 0;
+	width: 468px;
+	height: 555px;
+	font-size: 14px;
+	background: white;
+	border-radius: 5px;
+	top: 194px;
+	margin-left: 7%;
+	padding-top: 25px;
+	box-shadow: 0.4em 0.4em 1em rgba(0, 0, 0, 0.2);
+	display: none;
+	z-index: 2;
+}
+
+.sub_topA {
+	height: 211px;
+	width: 100%;
+	background: url(../image/recommend_1.jpg) no-repeat 0px -200px;
+	background-size: 100%;
+	min-width: 1080px;
+}
+
+.test {
+	position: absolute;
+	width: 100%;
+	height: 211px;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+#area_list ul {
+	width: 100px;
+	height: 300px;
+	margin: 0 0 0 0px;;
+}
+
+#area_list li {
+	width: 120px;
+	height: 27px;
+	margin: 0 0 0 32px;
+}
+
+.fix_title {
+	position: relative;
+	float: left;
+	width: 100px;
+	height: 500px;
+}
+
+#area_list .city li {
+	margin-left: 32px;
+}
+
+#area_list .city li:hover a, .city li:hover {
+	background: url("../image/ico_arr_gt_2.png") no-repeat 110px 0px;
+	background-size: 10px;
+	color: rgb(255, 0, 85);
+}
+
+#area_list a:visited, .isscroll_02 a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#area_list a, .isscroll_02 a {
+	text-decoration: none;
+	color: black;
+}
+
+#isscroll_02::-webkit-scrollbar {
+	display: none; /* Chrome, Safari, Opera*/
+}
+
+#isscroll_02 li {
+	display: block;
+	width: 167px;
+	height: 40px;
+	margin: 0 0 0 0px;
+	padding: 0 0 10px 0;
+}
+
+#isscroll_02 {
+	overflow: scroll;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	margin-left: 160px;
+	background: none;
+	height: 555px;
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 20px 0 0 30px;
+}
+
+#isscroll_02 .city_child ul {
+	display: none;
+	position: absolute;
+	top: -540px;
+	background: none;
+	height: 460px;
+}
+
+#isscroll_02 .city_child {
+	width: 90%;
+}
+
+#isscroll_02 .city_child li {
+	padding: 2px 0 5px 0;
+	width: 250px;
+	line-height: 16px;
+}
+
+#isscroll_02 a {
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+	word-break: keep-all;
+	line-height: 16px;
+	color: black;
+}
+
+#isscroll_02 a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#isscroll_02 a:hover {
+	color: rgb(255, 0, 85);
+}
+
+.city_child span {
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	height: 18px;
+	margin-left: 3px;
+	padding: 0 3px 0 3px;
+	background: rgba(242, 16, 76, 0.92);
+	font-size: 11px;
+	line-height: 20px;
+	color: #fff;
+}
+
+.city_child {
+	display: none;
+}
+
+#city_child1 {
+	display: block;
+}
+
+#bu {
+	position: inherit;
+	top: 0;
+	left: 0;
+	height: 32px;
+	width: 206px;
+	background: rgba(0, 0, 0, 0);
+	z-index: 1;
+}
+
+#wrap_commertial {
+	float: left;
+	width: 735px;
+	height: 21px;
+	text-align: center;
+	margin: 10px auto;
+	padding: 50px 0 0 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: grey;
+}
+
+#cf {
+	float: right;
+	border: 0px;
+	width: 100px;
+	background: url(../image/ico_question.png) no-repeat 65px -1px;
+	background-size: 19px;
+	font-size: 14px;
+	color: grey;
+}
+
+#cfPopup span {
+	float: right;
+	position: relative;
+	top: 16px;
+	left: 100px;
+	padding: 5px;
+	width: 180px;
+	height: 24px;
+	font-size: 14px;
+	display: block;
+	background: white;
+	border-radius: 5px;
+	box-shadow: 0.2em 0.2em 1em rgba(0, 0, 0, 0.2);
+}
+
+#filter_wrap {
+	display: inline-block;
+	position: relative;
+	width: 296px;
+	height: 1730px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin: 10px 31px 0 32px;
+	color: rgba(0, 0, 0, 0.56);
+}
+
+#filter_wrap h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+#date_box {
+	box-sizing: border-box;
+	position: relative;
+	width: 270px;
+	height: 130px;
+	margin: 0 0 0 24px;
+	padding: 27px 0 0 0;
+}
+
+#datePick {
+	box-sizing: border-box;
+	width: 246px;
+	height: 40px;
+	margin: 13px 0 32px;
+	padding: 0 0 0 39px;
+}
+
+#persons {
+	position: relative;
+	margin: 0 0 20px 0;
+}
+
+#pm {
+	float: right;
+	width: 20px;
+	height: 20px;
+	border: none;
+	outline: noen;
+	font-size: 20px;
+	background: white;
+	text-align: center;
+	margin: 0 20px;
+	line-height: 13px;
+}
+
+#detail_box {
+	float: left;
+	padding-top: 24px;
+	margin-left: 24px;
+	width: 246px;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#reset {
+	position: relative;
+	width: 119px;
+	height: 39px;
+	background: white;
+	line-height: 40px;
+	border: 1px solid rgb(255, 0, 85);
+	border-radius: 5px;
+	color: rgb(255, 0, 85);
+	margin-top: 13px;
+	font-size: 16px;
+}
+
+#detail_box input[type=submit] {
+	position: relative;
+	top: -1px;
+	width: 120px;
+	height: 40px;
+	background: rgb(255, 0, 85);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	margin-top: 13px;
+	font-size: 16px;
+}
+
+#filter_wrap ul {
+	margin: 21px 0 24px 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+#reserve ul, #type ul, #bed_type ul, #common ul, #facalty ul, #extra il
+	{
+	float: relative;
+	font-size: 14px;
+}
+
+#filter_wrap li {
+	position: relative;
+	width: 120px;
+	height: 21px;
+	margin: 0 0 16px 0;
+	display: inline-block;
+}
+
+#reserve li {
+	position: relative;
+	width: 150px;
+	line-height: 20px;
+}
+
+#result {
+	float: right;
+	width: 20px;
+	height: 20px;
+	border: none;
+	outline: noen;
+	background: white;
+	text-align: center;
+	margin: 0 20px;
+	font-size: 16px;
+	color: red;
+}
+
+strong {
+	font-size: 16px;
+	color: grey;
+}
+
+label {
+	margin-left: 20px;
+}
+
+input[type="checkbox"]+label {
+	display: inline-block;
+	width: 120px;
+	height: 20px;
+	background: url(../image/ico_chk.png) no-repeat 0px 0px;
+	background-size: 20px;
+}
+
+#reserve label, #type label, #common label, #facalty label, #extra label
+	{
+	line-height: 26px;
+	padding-left: 30px;
+}
+
+#price label {
+	line-height: 26px;
+}
+
+input[type="checkbox"]:checked+label {
+	background: url(../image/ico_chk.png) no-repeat 0px -20px;
+	background-size: 20px;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"]:checked {
+	display: none;
+}
+
+#bed_type ul {
+	width: 270px;
+	height: 70px
+}
+
+#bed_type label {
+	width: 50px;
+	height: 50px;
+	padding: 35px 0 0 0;
+	padding-top: 37px;
+	text-align: center;
+}
+
+#Gu_bed1+label {
+	position: relative;
+	top: -4px;
+	left: -15px;
+	width: 50px;
+	height: 60px;
+	background: url(../image/ico_room_un.png) no-repeat -12px 0px;
+	background-size: 300px;
+}
+
+#Gu_bed1:checked+label {
+	background: url(../image/ico_room.png) no-repeat -12px -38px;
+	background-size: 300px;
+	color: rgb(255, 0, 85);
+}
+
+#Gu_bed2+label {
+	position: relative;
+	top: -4px;
+	left: -80px;
+	width: 70px;
+	height: 60px;
+	background: url(../image/ico_room_un.png) no-repeat -78px 0px;
+	background-size: 300px;
+}
+
+#Gu_bed2:checked+label {
+	background: url(../image/ico_room.png) no-repeat -78px -38px;
+	background-size: 300px;
+	color: rgb(255, 0, 85);
+}
+
+#Gu_bed3+label {
+	position: relative;
+	top: -54px;
+	left: 118px;
+	width: 70px;
+	height: 60px;
+	background: url(../image/ico_room_un.png) no-repeat -150px 0px;
+	background-size: 300px;
+}
+
+#Gu_bed3:checked+label {
+	background: url(../image/ico_room.png) no-repeat -150px -38px;
+	background-size: 300px;
+	color: rgb(255, 0, 85);
+}
+
+#Gu_bed4+label {
+	position: relative;
+	top: -54px;
+	left: 71px;
+	width: 70px;
+	height: 60px;
+	background: url(../image/ico_room_un.png) no-repeat -227px 0px;
+	background-size: 300px;
+}
+
+#Gu_bed4:checked+label {
+	background: url(../image/ico_room.png) no-repeat -227px -38px;
+	background-size: 300px;
+	color: rgb(255, 0, 85);
+}
+
+#benefit input[type="checkbox"]+label {
+	text-align: center;
+	display: inline-block;
+	height: 32px;
+	margin: 0 8px 8px 0;
+	padding: 0 7px;
+	border: 1px solid rgba(0, 0, 0, 0.27);
+	border-radius: 32px;
+	background: #fff;
+	font-size: 14px;
+	line-height: 32px;
+	color: rgba(0, 0, 0, 0.56);
+	cursor: pointer;
+}
+
+#benefit input[type="checkbox"]:checked+label {
+	text-align: center;
+	display: inline-block;
+	height: 32px;
+	margin: 0 8px 8px 0;
+	padding: 0 7px;
+	border: 1px solid rgb(255, 0, 85);
+	border-radius: 32px;
+	background: #fff;
+	font-size: 14px;
+	line-height: 32px;
+	color: rgb(255, 0, 85);
+	cursor: pointer;
+}
+
+#benefit label {
+	width: auto;
+}
+
+strong {
+	margin-top: 24px;
+}
+
+#range_box {
+	margin: 24px 10px 0 0;
+	height: 30px;
+}
+
+#price {
+	width: 265px;
+	height: 110px;
+}
+
+#slider {
+	position: relative;
+	display: inlinebox;
+	width: 200px;
+	margin: 35px 12px 0 24px;
+}
+
+#minwon {
+	position: relateive;
+	margin-top: 15px;
+	float: left;
+	margin-right: 28px;
+	padding: 0 0 0 10px;
+}
+
+.maxwon {
+	position: relateive;
+	left: -10px;
+	margin-top: 15px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 28px;
+	padding: 0 0 0 23px;
+}
+
+#amount {
+	color: red;
+	border: none;
+	font-size: 14px;
+}
+
+#Gu_filter_wrap {
+	position: absolute;
+	top: 150px;
+	left: 348px;
+	width: 1000px;
+	height: 100%;
+	background: white;
+	margin: 100px;
+}
+
+.top_sort {
+	position: relative;
+	padding: 0;
+	box-shadow: none;
+	text-align: center;
+	border-radius: 5px;
+}
+
+#pension_filter_wrap #wrap_commertial {
+	position: relative;
+	width: 720px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+.top_sort input[type="radio"] {
+	display: none;
+}
+
+.top_sort input[type="radio"]:checked {
+	display: none;
+}
+
+.top_sort input[type="radio"]+label {
+	position: relative;
+	float: left;
+	top: -40px;
+	height: 40px;
+	width: 180px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	background: rgba(240, 240, 240, 0.6);
+	font-size: 16px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.38);
+	padding: 0;
+}
+
+.top_sort input[type="radio"]:checked+label {
+	position: relative;
+	float: left;
+	top: -40px;
+	height: 40px;
+	width: 180px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 0;
+	background: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	line-height: 40px;
+	color: rgb(255, 0, 85);
+	cursor: pointer;
+	padding: 0;
+}
+
+#displayregervation {
+	position: relative;
+	width: 30px;
+	top: -107px;
+	left: 173px;
+	border: none;
+	font-size: 16px;
+	background: 0;
+}
+
+.showguestHouseLodgment {
+	width : 740px;
+	position : relative;
+	background : red;
+	top : -1600px;
+	left : 447px;
+}
+
+.guestHouse {
+	width : 740px;
+	height : 430px;
+	background-size : 100%;
+	border : 1px solid;
+	cursor : pointer;
+	background-repeat : no-repeat;
+}
+/* !!!! */
+#guestHouseLists{
+	position:relative;
+	top: -1600px;
+	left: -120px;
+	width:635px;
+	height:350px;
+	margin:0 auto;
+	border : 1px solid;
+}
+#guestHouseLists_shadow{
+	width:635px;
+	left:-24px;
+	height:300px;
+	margin:0 auto;
+	padding:0 24px;
+	z-index:-1; 
+	background: rgb(0,0,0);
+	background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%);
+}
+#LodgementName_guestHouse{
+	width:300px;
+	font-size:30px;
+	font-weight:bold;
+	color:white;
+	margin-bottom:10px;
+}
+#LodgementRecommend_guestHouse{
+	font-size:24px;
+	color:white;
+	margin-bottom:10px;
+}
+#LodgementCome_guestHouse{
+	position:relative;
+	font-size:24px;
+	color:white;
+	margin-bottom:10px;
+}
+#LodgemoentStayPrice_guestHouse {
+	margin-bottom:10px;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	float:right;
+}
+#LodgemoentSleepPrice_guestHouse {
+	clear:both;
+	font-size:20px;
+	font-weight:bold;
+	color:white;
+	float:right;
+}
+#hotelinfo_guestHouse{
+	position:relative;
+	background:rgba(0,0,0,0);
+	width:635px;
+	left:-1px;
+	top:-125px;
+	height:350px;
+	margin:0 auto;
+	padding:0 24px;
+	z-index:3; 
+	border:none;
+	outline:none;
+}
+/* !!!! */

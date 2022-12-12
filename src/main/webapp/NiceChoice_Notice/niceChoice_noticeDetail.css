@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.noticeDetailCenter {
+	padding-top : 200px;
+	background : #ebebeb;
+	padding-bottom : 20px;
+}
+
+.noticeDetail {
+	width : 964px;
+	background : white;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : -40px;
+	box-shadow: -1px 1px 2px #aaa;
+	border-radius : 5px;
+}
+
+table {
+	width : 98%;
+	margin-left : auto;
+	margin-right : auto;
+	padding-bottom : 10px;
+}
+
+.buttonArea {
+	width : 964px;
+	text-align : center;
+	margin-bottom : 5px;
+}
+
+.listBtn {
+	width : 180px;
+	height : 48px;
+	background : #f2114c;
+	border : none;
+	border-radius : 5px;
+	color : white;
+	font-size : 17px;
+	font-weight : normal;
+	margin-bottom : 15px;
+	cursor : pointer;
+}

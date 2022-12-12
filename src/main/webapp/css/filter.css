@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+#filter_wrap {
+	display: inline-block;
+	position: relative;
+/* 	width: 296px; */
+/* 	height: 1368px; */
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin: 10px 31px 0 32px;
+	color: rgba(0, 0, 0, 0.56);
+}
+
+#filter_wrap h3 {
+	font-size: 18px;
+	margin: 0;
+}
+
+#date_box {
+	box-sizing: border-box;
+	position: relative;
+	width: 270px;
+	height: 130px;
+	margin: 0 0 0 24px;
+	padding: 27px 0 0 0;
+}
+
+#datePick {
+	box-sizing: border-box;
+	width: 246px;
+	height: 40px;
+	margin: 13px 0 32px;
+	padding: 0 0 0 39px;
+}
+
+#datepick_btn {
+	
+}
+
+#detail_box {
+	padding-top: 24px;
+	width: 246px;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#detail_box input[type=button] {
+	position: relative;
+	width: 119px;
+	height: 39px;
+	background: white;
+	line-height: 40px;
+	border: 1px solid rgb(255, 0, 85);
+	border-radius: 5px;
+	color: rgb(255, 0, 85);
+	margin-top: 13px;
+	font-size: 16px;
+}
+
+#detail_box input[type=submit] {
+	position: relative;
+	top: -1px;
+	width: 120px;
+	height: 40px;
+	background: rgb(255, 0, 85);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	margin-top: 13px;
+	font-size: 16px;
+}
+
+#filter_wrap ul {
+	margin: 21px 0 24px 0;
+	list-style-type: none;
+	padding: 0;
+}
+
+#theme ul, #spa ul, #play ul {
+	float: left;
+	font-size: 14px;
+}
+
+#filter_wrap li {
+	position: relative;
+	width: 120px;
+	height: 21px;
+	margin: 0 0 16px 0;
+	display: inline-block;
+}
+
+#reserve li {
+	position: relative;
+	width: 150px;
+	line-height: 20px;
+}
+
+input[type="checkbox"]+label {
+	display: inline-block;
+	width: 120px;
+	height: 20px;
+	background: url(../image/ico_chk.png) no-repeat 0px 0px;
+	background-size: 20px;
+}
+
+label {
+	line-height: 26px;
+	padding-left: 30px;
+}
+
+input[type="checkbox"]:checked+label {
+	background: url(../image/ico_chk.png) no-repeat 0px -20px;
+	background-size: 20px;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"]:checked {
+	display: none;
+}
+
+#benefit input[type="checkbox"]+label {
+	text-align: center;
+	display: inline-block;
+	height: 32px;
+	margin: 0 8px 8px 0;
+	padding: 0 7px;
+	border: 1px solid rgba(0, 0, 0, 0.27);
+	border-radius: 32px;
+	background: #fff;
+	font-size: 14px;
+	line-height: 32px;
+	color: rgba(0, 0, 0, 0.56);
+	cursor: pointer;
+}
+
+#benefit input[type="checkbox"]:checked+label {
+	text-align: center;
+	display: inline-block;
+	height: 32px;
+	margin: 0 8px 8px 0;
+	padding: 0 7px;
+	border: 1px solid rgb(255, 0, 85);
+	border-radius: 32px;
+	background: #fff;
+	font-size: 14px;
+	line-height: 32px;
+	color: rgb(255, 0, 85);
+	cursor: pointer;
+}
+
+#benefit label {
+	width: auto;
+}
+
+strong {
+	margin-top: 24px;
+}
+
+#range_box {
+	margin: 24px 10px 0 0;
+	height: 30px;
+}
+
+#slider {
+	position: relative;
+	display: inlinebox;
+	width: 200px;
+	margin: 35px 12px 0 24px;
+}
+
+.minwon {
+	position: relateive;
+	margin-top: 15px;
+	float: left;
+	margin-top: 15px;
+	padding: 0;
+}
+
+.maxwon {
+	position: relateive;
+	left: -10px;
+	margin-top: 15px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 4px;
+	padding: 0 0 0 23px;
+}
+
+#amount {
+	color: red;
+	border: none;
+	font-size: 14px;
+}
+#motel_filter_wrap{
+	position:absolute;
+	top:279px;
+	left:348px;
+	width:546px;
+	height:100%;
+	margin: 0 200px;
+	background:white;
+
+}
+
+.top_sort {
+	position:relative;
+	padding: 0;
+	box-shadow: none;
+	text-align: center;
+	border-radius: 5px;
+	
+}
+
+
+#motel_filter_wrap #wrap_commertial{
+	position:relative;
+	width: 546px;
+	padding:0px;
+	margin-top:10px;
+	}
+.top_sort input[type="radio"] {
+	display: none;
+}
+
+.top_sort input[type="radio"]:checked {
+	display: none;
+}
+
+.top_sort input[type="radio"]+label {
+position:relative;
+	float: left;
+	top:-40px;
+	height: 40px;
+	width:180px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	background: rgba(240, 240, 240, 0.6);
+	font-size: 16px;
+	line-height: 40px;
+	color: rgba(0, 0, 0, 0.38);
+	padding:0;
+	
+}
+
+.top_sort input[type="radio"]:checked+label {
+	position:relative;
+	float: left;
+	top:-40px;
+	height: 40px;
+	width:180px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 0;
+	background: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	line-height: 40px;
+	color: rgb(255, 0, 85);
+	cursor: pointer;
+	padding:0;
+}
+
+#displayregervation{
+	position:relative;
+	width:30px;
+	top:-74px;
+	left:173px;
+	border:none;
+	font-size:16px;
+	background:0;
+	
+	
+}

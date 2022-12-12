@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+#main_wrap {
+	background : #ebebeb;
+	padding : 900px 10px 0 10px;
+}
+
+.main_top {
+	box-sizing : border-box;
+	width : 964px;
+	height : 344px;
+	background : white;
+	margin-top : -768px;
+	margin-left : auto;
+	margin-right : auto;
+	box-shadow: -1px 1px 2px #aaa;
+	border-radius : 5px;
+}
+
+.main_top h1 {
+	padding-top : 47px;
+	font-size : 20px;
+	font-weight : bold;
+	text-align : center;
+	letter-spacing : -3px;
+}
+
+.registButton {
+	width: 173px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #f2114c;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    border : none;
+    cursor : pointer;
+    margin-left : 390px;
+    margin-top : 12px;
+}
+
+.todo_Area {
+	display : table;
+	height : 150px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 25px;
+}
+
+.todo_Area div {
+	height: 150px;
+	width: 200px;
+	float: left;
+	text-align : center;
+	font-size : 16px;
+	font-weight : 600; 
+}
+
+.first {
+	color : #f2114c;
+}
+
+.firstImg {
+	background : red;
+	border-radius : 50%;
+	width : 90px;
+	height : 90px;
+	margin : 6px 55px 0 55px;
+}
+
+.secondImg, .thirdImg, .fourthImg {
+	background : gray;
+	border-radius : 50%;
+	width : 90px;
+	height : 90px;
+	margin : 6px 55px 0 55px;
+}
+
+.second, .third, .fourth {
+	line-height : 32px;
+	color : rgba(0, 0, 0, 0.56);
+}
+
+
+
+
+
+.mainSpot {
+	width : 966px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 20px;
+}
+
+.mainSpot img {
+	border-radius : 5px;
+	max-width : 100%;
+}
+
+.bottom_Area {
+	width : 965px;
+	height : 444px;
+	margin-top : 14px;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.bottom_Area_noticeArea {
+	width : 308px;
+	height : 444px;
+	background : #ffffff;
+	border-radius : 5px;
+	box-shadow: -1px 1px 2px #aaa;
+}
+
+.bottom_Area_roomStatusArea {
+	width : 308px;
+	height : 160px;
+	background : yellow;
+	margin-top : -444px;
+	margin-left : 329px;
+	float : left;
+}
+
+.noUseArea {
+	background : #C8FFFF;
+	width : 308px;
+	height : 160px;
+	float : right;
+	margin-top : -444px;
+	box-shadow : -1px 1px 2px #aaa;
+}
+
+.reservation_table {
+	background : skyblue;
+	width : 636px;
+	height : 264px;
+	float : right;
+	margin-top : -264px;
+}
+
+.notice_header {
+	width : 308px;
+	height : 56px;
+}
+
+.noticeText  {
+	display : inline-block;
+	width : 65px;
+	height : 16px;
+	font-size : 16px;
+	font-weight : 600;
+	color : #000;
+	margin-top: 24px;
+    margin-bottom: 18px;
+    margin-left: 24px;
+}
+
+.moreNotice {
+	display : inline-block;
+	width : 65px;
+	height : 16px;
+	font-size : 13px;
+	font-weight : normal;
+	color : gray;
+	margin-top: 24px;
+	margin-bottom: 18px;
+	margin-left : 120px;
+	cursor : pointer;
+}
+
+hr {
+	background : rgba(0, 0, 0, 0.20);
+	height : 1px;
+	border : 0;
+	width : 90%
+}
+
+.bottom_Area_roomStatusArea {
+	background : #546e7a;
+	border-radius : 5px;
+	box-shadow : -1px 1px 2px #aaa;
+}
+
+.roomStatusHeader {
+	height : 50px;
+}
+
+.roomStatusHeader span {
+	width: 260px;
+    height: 32px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 1;
+    color: #fff;
+    margin-top: 24px;
+    margin-left: 24px;
+    cursor : pointer;
+}
+
+.roomStatusBody {
+	height : 110px;
+	width : 308px;
+	text-align : center;
+}
+
+.roomStatusBody table {
+	width : 100%;
+	table-layout : fixed;
+	color : #ffffff;
+	font-size : 16px;
+}
+
+.roomStatusBody table td {
+	height : 45px;
+}
+
+p {
+	color : #B2CCFF;
+	font-size: 25px;
+    font-weight: 900;
+    text-align : center;
+    margin-top : 55px;
+}
+
+.reservation_table {
+	background : #ffffff;
+	border-radius : 5px;
+	box-shadow : -1px 1px 2px #aaa;
+} 
+
+.reservation_table table {
+	width : 610px;
+	height : 250px;
+	margin : auto;
+	margin-top : 5px;
+	table-layout : fixed;
+	text-align : center;
+}
+
+.reservation_table_title {
+    font-size : 14px;
+    font-weight : 800;
+    color : black;
+}
+
+.moreReservationText {
+	font-size : 12px;
+	color : rgba(0, 0, 0, 0.56);
+	cursor : pointer;
+}
+
+th {
+	font-size : 12px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1;
+    color: #566E78;
+}

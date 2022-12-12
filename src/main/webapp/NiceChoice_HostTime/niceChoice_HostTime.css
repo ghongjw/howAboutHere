@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+.hostTime_center {
+	background : #ebebeb;
+	padding-top : 145px;
+	padding-bottom : 20px;
+}
+
+.todo_Area {
+	display : table;
+	width : 964px;
+	height : 150px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 10px;
+	background : white;
+	border-radius : 5px;
+	box-shadow: -1px 1px 2px #aaa;
+}
+
+.todo_Area div {
+	height: 150px;
+	width: 25%;
+	float: left;
+	text-align : center;
+	font-size : 16px;
+	font-weight : 600; 
+}
+
+.third {
+	color : #f2114c;
+}
+
+.thirdImg {
+	background : red;
+	border-radius : 50%;
+	width : 90px;
+	height : 90px;
+	margin : 6px 55px 0 55px;
+}
+
+.firstImg, .secondImg, .fourthImg {
+	background : gray;
+	border-radius : 50%;
+	width : 90px;
+	height : 90px;
+	margin : 6px 55px 0 55px;
+}
+
+.first, .second, .fourth {
+	line-height : 16px;
+	color : rgba(0, 0, 0, 0.56);
+}
+
+.updateHostTime {
+	width : 964px;
+	margin-left : auto;
+	margin-right : auto;
+	padding-top : 15px;
+	padding-bottom : 15px;
+	background : white;
+	border-radius : 5px;
+	box-shadow : -1px 1px 2px #aaa;
+}
+
+.timeText_1 {
+	height : 20px;
+	font-size : 13px;
+	font-weight : 500;
+	color : #000;
+	margin-left : 22px;
+	margin-top : 10px;
+}
+
+.timeText_1 span {
+	display : inline-block;
+	margin-left : 23px;
+}
+
+table {
+	border-collapse : collapse;
+	width : 90%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+th {
+	width : 14.5%;
+	background : #eaeaea;
+	font-size : 14px;
+	font-weight : bold;
+	border : 1px solid #DCDCDC;
+}
+td {
+	height : 80px;
+}
+
+tr {
+	border : 1px solid #ccc;
+	height : 100px;
+}
+
+.regBtnArea {
+	width : 85%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.regBtn {
+	background : #f2114c;
+	color : #fff;
+	width : 177px;
+	height : 48px;
+	font-size : 18px;
+	border : none;
+	border-radius : 5px;
+	margin-top : 15px;
+	margin-left : 350px;
+	cursor : pointer;
+}
+
+.timeText_2 {
+	display : inline-block;
+	font-size : 15px;
+	width : 135px;
+	font-weight : bold;
+	color : rgba(0, 0, 0, 0.87);
+	margin-left : 20px;
+}
+
+select {
+	height : 48px;
+	width : 150px;
+	font-size : 14px;
+	border : 1px solid #ccc;
+	border-radius : 4px;
+	background-image : none;
+}
+
+.endOfReservate {
+	margin-left : 20px;
+}

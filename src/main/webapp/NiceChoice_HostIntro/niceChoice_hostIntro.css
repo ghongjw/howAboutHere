@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+.hostIntro_center {
+	background : #ebebeb;
+	padding-top : 145px;
+	padding-bottom : 20px;
+}
+
+.todo_Area {
+	display : table;
+	width : 964px;
+	height : 150px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 10px;
+	background : white;
+	border-radius : 5px;
+	box-shadow: -1px 1px 2px #aaa;
+}
+
+.todo_Area div {
+	height: 150px;
+	width: 25%;
+	float: left;
+	text-align : center;
+	font-size : 16px;
+	font-weight : 600; 
+}
+
+.second {
+	color : #f2114c;
+}
+
+.secondImg {
+	background : red;
+	border-radius : 50%;
+	width : 90px;
+	height : 90px;
+	margin : 6px 55px 0 55px;
+}
+
+.firstImg, .thirdImg, .fourthImg {
+	background : gray;
+	border-radius : 50%;
+	width : 90px;
+	height : 90px;
+	margin : 6px 55px 0 55px;
+}
+
+.first, .third, .fourth {
+	line-height : 16px;
+	color : rgba(0, 0, 0, 0.56);
+}
+
+.updateHostIntro {
+	width : 964px;
+	margin-left : auto;
+	margin-right : auto;
+	padding-top : 15px;
+	padding-bottom : 15px;
+	background : white;
+	border-radius : 5px;
+	box-shadow : -1px 1px 2px #aaa;
+}
+
+.introText_1 {
+	height : 20px;
+	font-size : 13px;
+	font-weight : 500;
+	color : #000;
+	margin-left : 22px;
+	margin-top : 10px;
+}
+
+.introText_2 {
+	font-size : 16px;
+	font-weight : bold;
+	margin-left : 22px;
+	margin-top : 10px;
+}
+
+table {
+	table-layout : fixed;
+	border-collapse : collapse;
+	width : 95%;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 10px;
+}
+
+th {
+	width : 14.5%;
+	background : #eaeaea;
+	font-size : 14px;
+	font-weight : bold;
+	border : 1px solid #DCDCDC;
+}
+
+td {
+	border : 1px solid #DCDCDC;
+}
+
+.textArea_1 {
+	display : inline-block;
+	width : 95px;
+	text-align : center;
+	font-size : 14px;
+	font-weight : 500;
+}
+
+.lodgmentNameInputArea, .lodgmentAddressInputArea {
+	width : 328px;
+	height : 48px;
+	color : #555;
+	background : #fff;
+	background-image : none;
+	border : 1px solid #ccc;
+	border-radius : 4px;
+	margin-left : 8px;
+}
+
+.facility {
+	display : inline-block;
+	margin-left : 35px;
+	margin-bottom : 20px;
+}
+
+.facility label{
+	display : inline-block;
+	width : 130px;
+	height : 18px;
+	padding-top : 30px;
+	font-size : 14px;
+	font-weight : 400;
+	cursor : pointer;
+	vertical-align : middle;
+}
+
+textArea {
+	font-size : 14px;
+	color : #555;
+	background : #fff;
+	border : 1px solid #ccc;
+	border-radius : 4px;
+	margin-left : 40px;
+}
+
+.regBtnArea {
+	width : 85%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.regBtn {
+	background : #f2114c;
+	color : #fff;
+	width : 177px;
+	height : 48px;
+	font-size : 18px;
+	border : none;
+	border-radius : 5px;
+	margin-top : 15px;
+	margin-left : 350px;
+	cursor : pointer;
+}
+
+.filebox {
+	width : 135px;
+	float : left;
+}
+
+.imageAddBtn {
+	display : inline-block;
+	background : #118af2bf;
+	color : #fff;
+	width : 85px;
+	height : 40px;
+	font-size : 13px;
+	border : none;
+	border-radius : 5px;
+	cursor : pointer;
+	margin-left : 38px;
+	text-align : center;
+	line-height : 40px;
+}
+
+.imageSaveBtn {
+	display : inline-block;
+	background : #f21111bf;
+	color : #fff;
+	width : 85px;
+	height : 40px;
+	font-size : 13px;
+	border : none;
+	border-radius : 5px;
+	cursor : pointer;
+	margin-left : 20px;
+	text-align : center;
+	line-height : 40px;
+}
+
+.buttonBox {
+	width : 135px;
+	float : left;
+}
+
+.imageInfoText {
+	color : red;
+	line-height : 35px;
+	font-size : 13px;
+	font-weight : bold;
+}
+
+
+
+
+
+
+
+
+
+
+

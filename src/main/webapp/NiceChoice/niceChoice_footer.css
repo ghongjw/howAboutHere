@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+#footer {
+	background : #252525 url("/project/Img/footer_img.png") no-repeat 50%;
+	box-sizing : border-box;
+	height : 220px;
+}

@@ -1,0 +1,571 @@
+/* @charset "UTF-8"; */
+#headbox {
+	position: fix;
+	width: 100%;
+	height: 73px;
+	background: #e62243;
+}
+
+#info_box {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#LodgeInfo_top {
+	width: 1024px;
+	height: 477px;
+	margin: 40px auto;
+}
+
+#main_image_box {
+	float: left;
+	width: 490px;
+	height: 477px;
+	margin: 0 50px 0 0;
+}
+
+#main_image {
+	width: 490px;
+	height: 348px;
+	background: black;
+	margin: 0 0 20px 0;
+}
+
+#sub_imagesbox {
+	float: left;
+	width: 490px;
+	height: 80px;
+	background: white;
+}
+
+#sub_image0, #sub_image1, #sub_image2, #sub_image3 {
+	float: left;
+	width: 115px;
+	height: 80px;
+	background: purple;
+	margin-left: 5px;
+}
+
+#Linfo {
+	float: left;
+	width: 400px;
+	height: 477px;
+}
+
+#Linfo h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+
+#recommend {
+	font-size: 18px;
+	color: #ffa726;
+	margin-bottom: 10px;
+}
+
+#menu_select input[type="radio"]+label {
+	height: 72px;
+	margin-right: 24px;
+	padding: 0;
+	border: none;
+	border-bottom: 2px solid #fff;
+	background: none;
+	font-size: 18px;
+	color: rgba(0, 0, 0, 0.38);
+}
+
+#menu_select input[type="radio"]:checked+label {
+	height: 72px;
+	margin-right: 24px;
+	padding: 0;
+	border: none;
+	border-bottom: 2px solid rgb(255, 0, 85);
+	background: none;
+	font-size: 18px;
+	color: rgb(255, 0, 85);
+}
+
+#address {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: grey;
+}
+
+#comment {
+	width: 424px;
+	width: 400px;
+	height: 240px;
+	background: rgba(0, 0, 0, 0.02);
+	word-wrap: break-word;
+	overflow-x: hidden;
+	overflow-y: sticky;
+	padding: 15px;
+}
+
+#comment h3 {
+	font-size: 14px;
+	color: gba(0, 0, 0, 0.4);
+	margin-bottom: 10px;
+}
+
+#roomInfoTable {
+	float: left;
+	width: 962px;
+	height: 275px;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);;
+	margin-bottom: 20px;
+}
+
+#pic img {
+	float: left;
+	width: 300px;
+	height: 180px;
+	margin: 2% 20px 0 0;
+}
+
+#timeRoomInfo, #onenightInfo {
+	float: left;
+	width: 210px;
+	height: 190px;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#lentPrice {
+	height: 60px;
+	line-height: 70px;
+	text-align: right;
+}
+
+#intime, #outtime {
+	text-align: right;
+	margin: 5px;
+	font-size: 18px;
+}
+
+#roomtype {
+	height: 37px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#roomInfoTable input[type=button], #roomInfoTable input[type=submit] {
+	top: 50px;
+	width: 233px;
+	height: 40;
+	border: none;
+	background: rgb(255, 0, 85) !important;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#roomInfoTable input[type=button]:disabled, #roomInfoTable input[type=submit]:disabled
+	{
+	height: 40px;
+	border: none;
+	background: rgb(235, 235, 235) !important;
+	color: rgba(0, 0, 0, 0.56);
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#informations {
+	width: 1024px;
+	height: 400px;
+	background: rgba(0, 0, 0, 0.04);
+	color: rgba(0, 0, 0, 0.6);
+	padding: 10px 30px 0 50px;
+	margin-top: 30px;
+}
+
+#basic_info_box p {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#lodgeInfo {
+	margin-bottom: 20px;
+}
+
+#reviewsA {
+	width: 1024px;
+	height: 400px;
+	background: rgba(0, 0, 0, 0.04);
+	color: rgba(0, 0, 0, 0.6);
+	padding: 10px 30px 0 30px;
+	margin-top: 30px;
+}
+/*********결제페이지*************************************/
+form {
+	height: 1000px;
+}
+
+#LodgeInfo_middle form {
+	height: 0;
+}
+
+#two {
+	height: 1000px;
+}
+
+#reserveInfo {
+	width: 500px;
+	height: 1000px;
+	margin-top: 40px;
+	margin-left: 15%;
+}
+
+#reserveInfo h2 {
+	display: block;
+	margin: 54px 0 42px 0;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#name_id {
+	height: 25px;
+	font-size: 19px;
+}
+
+#reserveMobile {
+	height: 25px;
+	font-size: 16px;
+	margin-top: 30px;
+}
+
+#nonMemberPhone {
+	width: 564px;
+	height: 48px;
+	padding: 8px 14px 8px 16px;
+}
+
+#checkAll:checked+label {
+	background: url("../image/ico_chk.png") 0 -24px no-repeat;
+	background-size: 24px;
+	font-size: 14px;
+}
+
+#checkagree1:checked+label {
+	background: url("../image/ico_chk.png") 0 -24px no-repeat;
+	background-size: 24px;
+}
+
+#checkagree2:checked+label {
+	background: url("../image/ico_chk.png") 0 -24px no-repeat;
+	background-size: 24px;
+}
+
+#checkagree3:checked+label {
+	background: url("../image/ico_chk.png") 0 -24px no-repeat;
+	background-size: 24px;
+}
+
+#checkagree4:checked+label {
+	background: url("../image/ico_chk.png") 0 -24px no-repeat;
+	background-size: 24px;
+}
+
+#checkagree5:checked+label {
+	background: url("../image/ico_chk.png") 0 -24px no-repeat;
+	background-size: 24px;
+}
+
+#checkagree6:checked+label {
+	background: url("../image/ico_chk.png") 0 -24px no-repeat;
+	background-size: 24px;
+}
+
+#login_button {
+	height: 56px;
+	width: 336px;
+	background: rgb(255, 0, 85);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	margin-top: 5px;
+}
+
+#login_button:disabled {
+	background-color: rgba(239, 239, 239, 0.3);
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+input[type=checkbox]:checked {
+	display: none;
+}
+
+input[type="checkbox"]+label {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url(./ico_chk.png) 0 0px no-repeat;
+	background-size: 24px;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-right: 10px;
+}
+
+#mobilePhone, #nameInput, #confirmNumber {
+	box-sizing: border-box;
+	height: 48px;
+	width: 60%;
+	padding: 8px 14px 8px 15px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#inputpoint {
+	box-sizing: border-box;
+	height: 48px;
+	width: 30%;
+	padding: 8px 14px 8px 15px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+#phone_check:disabled, #confirmNumberButton:disabled {
+	height: 44px;
+	width: 150px;
+	padding: 8px 14px 8px 15px;
+	background-color: rgba(239, 239, 239, 0.3);
+	border: none;
+	margin-left: 5px;
+	color: rgba(16, 16, 16, 0.3);
+	border-radius: 5px;
+}
+
+#point {
+	height: 44px;
+	width: 150px;
+	padding: 8px 14px 8px 15px;
+	background-color: rgba(239, 239, 239, 0.3);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin-left: 5px;
+	color: rgba(16, 16, 16, 0.3);
+	border-radius: 5px;
+}
+
+#phone_check, #confirmNumberButton {
+	height: 44px;
+	width: 150px;
+	padding: 8px 14px 8px 15px;
+	border: none;
+	color: white;
+	background: #ff0055;
+	border-radius: 5px;
+}
+
+#phonebox {
+	height: 50px;
+	margin-bottom: 25px;
+}
+
+#mobilePhone:focus, #inputpoint:focus {
+	outline: none;
+	border-color: 1px soled rgba(16, 16, 16, 0.3);;
+}
+
+#confirmNumberButton:disabled {
+	height: 44px;
+	width: 100px;
+	padding: 8px 14px 8px 15px;
+	background-color: rgba(239, 239, 239, 0.3);
+	border: none;
+	margin-left: 5px;
+	color: rgba(16, 16, 16, 0.3);
+	border-radius: 5px;
+}
+
+#confirmNumberButton {
+	height: 44px;
+	width: 100px;
+	padding: 8px 14px 8px 15px;
+	background-color: rgba(239, 239, 239, 0.3);
+	border: none;
+	color: white;
+	background: #ff0055;
+	border-radius: 5px;
+}
+
+#mobilebutton {
+	display: none;
+	height: 44px;
+	width: 336px;
+	padding: 8px 14px 8px 15px;
+	background-color: rgba(239, 239, 239, 0.3);
+	border: none;
+	color: white;
+	background: #ff0055;
+	border-radius: 5px;
+}
+
+#mobilebutton:disabled {
+	height: 44px;
+	width: 336px;
+	padding: 8px 14px 8px 15px;
+	background: rgba(239, 239, 239, 0.3);
+	border: none;
+	color: rgba(16, 16, 16, 0.3);
+	border-radius: 5px;
+}
+
+input {
+	outline: none;
+}
+
+#select_pay {
+	width: 70%;
+	height: 40px;
+	padding: 0 12px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	border-radius: 4px;
+	background: rgb(250, 250, 250)
+		url(https://image.goodchoice.kr/images/web_v3/ico_arr_down.png) right
+		10px top 50% no-repeat;
+	background-size: 25px auto;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.87);
+	cursor: pointer;
+}
+/*right*/
+#payment_info {
+	position: relative;
+	width: 310px;
+	background: rgba(0, 0, 0, 0.02);
+	margin-top: 40px;
+	left: 70%;
+	top: -1050px;
+	padding: 20px;
+}
+
+#boxs {
+	font-size: 24px;
+	color: black;
+	margin-bottom: 29px;
+	height: 50px;
+}
+
+#boxs p {
+	font-size: 24px;
+	color: rgba(0, 0, 0, 0.2);
+}
+
+#payment {
+	margin-top: 40px;
+	padding: 30px 0 0 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#payment strong {
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	margin-bottom: 20px;
+	height: 50px;
+}
+
+#cost {
+	font-size: 24px;
+	height: 50px;
+	font-weight: bold;
+	color: red;
+}
+
+#info {
+	margin-bottom: 15px;
+}
+
+#info span {
+	color: red;
+}
+
+#confirmPay {
+	height: 44px;
+	width: 270px;
+	padding: 8px 14px 8px 15px;
+	background-color: rgba(239, 239, 239, 0.3);
+	border: none;
+	color: white;
+	background: #ff0055;
+	border-radius: 5px;
+}
+
+#guest {
+	widht: 30px; padding : 22px 0;
+	font-size: 15px;
+	line-height: 22px;
+	text-align: center;
+	background: #ff0055 url(../image/bg_login_m.png);
+	background-size: cover;
+	margin: 70px 0 30px 0;
+	color: white;
+	padding: 22px 0;
+}
+
+#guest a {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#guest a:-webkit-any-link {
+	color: white;
+	cursor: pointer;
+}
+
+#member h2 {
+	display: block;
+	margin: 54px 0 30px 0;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+#benefitForLogin {
+	padding-top: 30px;
+}
+
+#popup {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	padding: auto;
+}
+
+.txt{
+	position: fixed;
+	width: 500px;
+	height: 560px;
+	background: white;
+	text-align: reft;
+	border-radius:5px;
+	margin:8% 35%;
+	padding: 27px;
+	line-height:20px;
+}
+.txt strong{
+	font-size:16px;
+	margin-bottom:5px;
+}
+
+.txt il, ul {
+	color: rgba(0, 0, 0, 0.3);
+	margin-bottom:5px;
+}
+#pop_table th, tr, td{
+	border-collapse: collapse;
+	border:1px solid rgba(0, 0, 0, 0.5);
+	font-size:16px;
+}

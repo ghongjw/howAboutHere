@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+}
+
+#wrap {
+	position: relative;
+	height: 557px;
+	width: 336px;
+	margin: 100px auto 0 auto;
+}
+
+header {
+	position: relative;
+	background: url(./here.jpg) no-repeat;
+	background-size: 114px;
+	height: 44px;
+	width: 112px;
+	margin: 0 auto 8px auto;
+	padding-top: 8px;
+	text-align: center;
+	overflow: auto
+}
+
+#kakao_login_box {
+
+	height: 64px;
+	width: 336px;
+	color: #3c1e1e;
+	text-align: center;
+}
+
+#kabutton, #falogin,#naloginButton{
+	position: relative;
+	top:-64px;
+	left:0;
+	height: 30px;
+	width: 336px;
+	opacity: 0;
+}
+#kakaologin_button {
+	height: 56px;
+	width: 336px;
+	background: rgb(252, 229, 30);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.kakao_icon {
+	position: relative;
+	top: -41px;
+	left: 87px; height : 20px;
+	width: 200px;
+	background: url(./kakaoballoon.png) no-repeat;
+	background-size: 20px;
+	height: 20px;
+}
+
+#facebook_login_box {
+	height: 64px;
+	width: 336px;
+	color: white;
+	text-align: center;
+}
+
+#facebooklogin {
+	height: 56px;
+	width: 336px;
+	background: rgb(24, 119, 242);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.facebook_icon {
+	position: relative;
+	top: -41px;
+	left: 87px;
+	height: 20px;
+	width: 200px;
+	background: url(./f_logo_RGB-White_58.png) no-repeat;
+	background-size: 20px;
+}
+
+#naver_login_box {
+	height: 64px;
+	width: 336px;
+	color: white;
+	text-align: center;
+}
+
+#naverIdLogin_loginButton {
+	height: 56px;
+	width: 336px;
+	background: rgb(40, 209, 17);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+} 
+
+.naver_icon {
+	position: relative;
+	top: -41px;
+	left: 87px;
+	height: 20px;
+	width: 200px;
+	background: url(./naver_icon.png) no-repeat -30px -30px;
+	background-size: 50px;
+}
+
+.naver_icon label {
+	position: relative;
+	left: -10px;
+}
+
+table {
+	height: 56px;
+	width: 336px;
+	border-collapse: collapse;
+	margin-bottom: 8px;
+	color: rgba(0, 0, 0, 0.60);
+}
+
+#bor {
+	width: 40%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.60);
+}
+
+#idbox {
+	height: 60px;
+	width: 336px;
+}
+
+#id_input {
+	height: 48px;
+	width: 282px;
+	padding: 0 0 0 50px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.60); 
+	border:1px solid rgba(0, 0, 0, 0.30);
+	border-radius: 5px;
+}
+#id_input:focus{
+	outline:none;
+	border:1px solid rgba(0, 0, 0, 0.50);
+	border-radius: 5px;
+}
+
+#pwbox {
+	height: 60px;
+	width: 336px;
+	margin-top:10px;
+}
+
+#pw_input {
+	height: 48px;
+	width: 282px;
+	padding: 0 0 0 50px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.60); 
+	border:1px solid rgba(0, 0, 0, 0.30);
+	border-radius: 5px;
+}
+
+#login_button {
+	height: 56px;
+	width: 336px;
+	background: rgb(255, 0, 85);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	margin-top:5px;
+}
+#set_email {
+	height: 56px;
+	width: 336px;
+	background: rgba(0, 0, 0, 0.10);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	margin-top:30px;
+}
+
+#setting {
+	height: 56px;
+	width: 336px;
+}
+
+#reset_pw, #register {
+	float: left;
+	height: 56px;
+	width: 48%;
+	line-height: 82px;
+}
+
+
+#split {
+	float: left;
+	height: 56px;
+	width: 1%;
+	line-height: 82px;
+	margin: 0;
+	font-size: 18px;;
+}
+
+a:-webkit-any-link{
+	color: rgba(0, 0, 0, 0.87);
+	text-decoration: none;
+}
+
+#naver_id_login{
+	position:relative;
+	top:-114px;
+    height: 56px;
+	width: 36px;
+	opacity:0;
+}
+

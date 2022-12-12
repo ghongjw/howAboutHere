@@ -1,0 +1,178 @@
+@charset "UTF-8";
+body{
+	padding-top:100px;
+	text-align:center;
+	
+	
+}
+
+#wrap{
+	text-align:left;
+	position: relative;
+	height: 557px;
+	width: 360px;
+	margin: 10px auto 0 auto;
+ 	font-size:16px;
+}
+
+
+#checkAll:checked+label{
+    background: url(./ico_chk.png) 0 -24px no-repeat;
+    background-size: 24px auto;
+
+}
+#checkagree1:checked+label{
+    background: url(./ico_chk.png) 0 -24px no-repeat;
+    background-size: 24px auto;
+
+}
+#checkagree2:checked+label{
+    background: url(./ico_chk.png) 0 -24px no-repeat;
+    background-size: 24px auto;
+
+}
+#checkagree3:checked+label{
+    background: url(./ico_chk.png) 0 -24px no-repeat;
+    background-size: 24px auto;
+
+}
+#checkagree4:checked+label{
+    background: url(./ico_chk.png) 0 -24px no-repeat;
+    background-size: 24px auto;
+
+}
+#checkagree5:checked+label{
+    background: url(./ico_chk.png) 0 -24px no-repeat;
+    background-size: 24px auto;
+
+}
+#checkagree6:checked+label{
+    background: url(./ico_chk.png) 0 -24px no-repeat;
+    background-size: 24px auto;
+
+}
+#login_button {
+	height: 56px;
+	width: 336px;
+	background: rgb(255, 0, 85);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	margin-top:5px;
+	
+}
+#login_button:disabled {
+    background-color: rgba(239, 239, 239, 0.3);
+    }
+input[type=checkbox] { 
+  display: none;
+}
+input[type=checkbox]:checked { 
+  display: none;
+}
+input[type="checkbox"] + label {
+display: inline-block; 
+width:24px; 
+height: 24px; 
+background: url(./ico_chk.png) 0 0px no-repeat;
+background-size:24px auto;
+cursor: pointer; 
+border-radius: 3px;
+margin-right:10px;
+}
+a{
+	color:black;
+}
+span{
+	color:red;
+}
+#mobilePhone ,#confirmNumber{
+box-sizing:border-box;
+height:48px;
+width:226px;
+padding:8px 14px 8px 15px;	
+}
+#phone_check:disabled{
+
+height:44px;
+width:100px;
+padding:8px 14px 8px 15px;	
+background-color: rgba(239, 239, 239, 0.3);
+border:none;
+margin-left:5px;
+color:rgba(16, 16, 16, 0.3);
+border-radius: 5px;
+
+}
+#phone_check{
+height:44px;
+width:100px;
+padding:8px 14px 8px 15px;
+border:none;
+color:white;
+background:#ff0055;
+border-radius: 5px;
+
+}
+#phonebox, #confirmphonebox{
+	height:50px;
+	margin-bottom:25px;
+	
+}
+#confirmphonebox{
+	
+	display:none;
+}
+#mobilePhone:focus, #confirmNumber:focus{
+	 outline: none;
+	border-color:1px soled rgba(16, 16, 16, 0.3);;
+	
+}
+#confirmNumberButton:disabled{
+
+height:44px;
+width:100px;
+padding:8px 14px 8px 15px;	
+background-color: rgba(239, 239, 239, 0.3);
+border:none;
+margin-left:5px;
+color:rgba(16, 16, 16, 0.3);
+border-radius: 5px;
+}
+#confirmNumberButton{
+height:44px;
+width:100px;
+padding:8px 14px 8px 15px;	
+background-color: rgba(239, 239, 239, 0.3);
+border:none;
+color:white;
+background:#ff0055;
+border-radius: 5px;
+}
+#mobilebutton{
+	display:none;
+height:44px;
+width:336px;
+padding:8px 14px 8px 15px;	
+background-color: rgba(239, 239, 239, 0.3);
+border:none;
+color:white;
+background:#ff0055;
+border-radius: 5px;
+	
+}
+#mobilebutton:disabled{
+height:44px;
+width:336px;
+padding:8px 14px 8px 15px;	
+background:rgba(239, 239, 239, 0.3);
+border:none;
+color:rgba(16, 16, 16, 0.3);
+border-radius: 5px;
+	
+}
+input{
+	outline:none;
+}
+

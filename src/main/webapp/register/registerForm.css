@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+	
+}
+
+#wrap {
+	position: relative;
+	height: 557px;
+	width: 336px;
+	margin: 100px auto 100px auto;
+	text-align: left;
+}
+.title{
+position: relative;
+text-align: center;
+	
+}
+.sub_title{
+	position: relative;
+text-align: left;
+color:grey;
+margin: 10px 0;
+	
+}
+header {
+	position: relative;
+	background: url(./here.jpg) no-repeat;
+	background-size: 114px;
+	height: 44px;
+	width: 112px;
+	margin: 0 auto 8px auto;
+	padding-top: 8px;
+	text-align: center;
+	overflow: auto
+}
+
+#idbox {
+	height: 80px;
+	width: 336px;
+}
+
+#id_input {
+	height: 50px;
+	width: 336px;
+	padding: 0 0 0 10px;
+	font-size: 16px;
+	color: rgba(0, 0, 0); 
+	border:1px solid rgba(0, 0, 0, 0.10);
+	border-radius: 5px;
+}
+#id_input:focus, #pw_input:focus, #conpw_input:focus, #nick_input:focus{
+	outline:none;
+	border:1px solid rgba(0, 0, 0, 0.10);
+	border-radius: 5px;
+}
+
+#pwbox {
+	height: 80px;
+	width: 336px;
+	
+}
+
+#pw_input {
+	height: 48px;
+	width: 336px;
+	padding: 0 0 0 10px;
+	font-size: 16px;
+	color: rgba(0, 0, 0); 
+	border:1px solid rgba(0, 0, 0, 0.10);
+	border-radius: 5px;
+}
+#conpwbox {
+	height: 80px;
+	width: 336px;
+	margin-top:10px;
+}
+
+#conpw_input {
+	height: 48px;
+	width: 336px;
+	padding: 0 0 0 10px;
+	font-size: 16px;
+	color: rgba(0, 0, 0); 
+	border:1px solid rgba(0, 0, 0, 0.10);
+	border-radius: 5px;
+}
+#nick_box{
+	height: 80px;
+	width: 336px;
+}
+#nick_input {
+	height: 48px;
+	width: 218px;
+	padding: 0 0 0 10px;
+	font-size: 16px;
+	color: black; 
+	border:1px solid rgba(0, 0, 0, 0.10);
+	border-radius: 5px;
+	margin-right:8px
+}
+#nickrandom {
+	height: 48px;
+	width: 93px;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.60); 
+	background: rgba(0, 0, 0, 0.10); 
+	border:none;
+	border-radius: 5px;
+}
+#register_button {
+	height: 56px;
+	width: 336px;
+	background: rgb(255, 0, 85);
+	line-height: 40px;
+	border: 0px;
+	border-radius: 5px;
+	color: white;
+	margin-top:5px;
+}
+label{
+	height: 30px;
+	width: 336px;
+	line-height:30px;
+	font-size:12px;
+	color:red;
+}

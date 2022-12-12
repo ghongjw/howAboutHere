@@ -1,0 +1,316 @@
+@charset "UTF-8";
+
+.myInfo_center {
+	background : #ebebeb;
+	padding-top : 145px;
+	padding-bottom : 20px;
+}
+
+.myInfo_table {
+	background : white;
+}
+
+.todo_Area {
+	display : table;
+	width : 964px;
+	height : 150px;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : 10px;
+	background : white;
+	border-radius : 5px;
+	box-shadow: -1px 1px 2px #aaa;
+}
+
+.todo_Area div {
+	height: 150px;
+	width: 25%;
+	float: left;
+	text-align : center;
+	font-size : 16px;
+	font-weight : 600; 
+}
+
+.first {
+	color : #f2114c;
+}
+
+.firstImg {
+	background : red;
+	border-radius : 50%;
+	width : 90px;
+	height : 90px;
+	margin : 6px 55px 0 55px;
+}
+
+.secondImg, .thirdImg, .fourthImg {
+	background : gray;
+	border-radius : 50%;
+	width : 90px;
+	height : 90px;
+	margin : 6px 55px 0 55px;
+}
+
+.second, .third, .fourth {
+	line-height : 32px;
+	color : rgba(0, 0, 0, 0.56);
+}
+
+.updateMyInfo {
+	width : 964px;
+	margin-left : auto;
+	margin-right : auto;
+	padding-top : 15px;
+	padding-bottom : 15px;
+	background : white;
+	border-radius : 5px;
+	box-shadow : -1px 1px 2px #aaa;
+}
+
+th {
+	width : 20%;
+	border : 1px solid #DCDCDC;
+}
+
+td {
+	height : 60px;
+}
+
+.td {
+	height : 140px;
+}
+
+.myInfoTable {
+	table-layout : fixed;
+	width : 95%;
+	margin-left : auto;
+	margin-right : auto;
+	border : 1px solid #DCDCDC;
+	border-collapse : collapse;
+}
+
+.infoTableHeaderText {
+	background : #EEEEEE;
+	font-size : 14px;
+	font-weight : bold;
+}
+
+.memberEmail {
+	display : inline-block;
+	margin-left : 20px;
+}
+
+.infoTableSubHeader {
+	display : inline-block;
+	font-size : 14px;
+	font-weight : 700;
+	margin-left : 15px;
+	margin-bottom : 20px;
+}
+
+.firstNumberSelector {
+	width : 94px;
+	height : 42px;
+	border : 1px solid #CACACA;
+	border-radius : 5px;
+}
+
+.phoneNumberInputArea {
+	margin-left : 13px;
+}
+
+.phoneNumberInputArea_2 {
+	width : 94px;
+	height : 38px;
+	border : 1px solid #CACACA;
+	border-radius : 5px;
+}
+/**/
+.mainNumberSelector {
+	width : 94px;
+	height : 42px;
+	border : 1px solid #CACACA;
+	border-radius : 5px;
+}
+
+.mainNumberInputArea {
+	margin-left : 27px;
+}
+
+.mainNumberInputArea_2 {
+	width : 94px;
+	height : 38px;
+	border : 1px solid #CACACA;
+	border-radius : 5px;
+}
+
+.calcInfoText {
+	margin-left : 15px;
+	font-size : 12px;
+	color : #f2114c;
+	font-weight : 650;
+	z-index : 0;
+}
+
+.bankSelector {
+	width : 300px;
+	height : 45px;
+	background : #DCDCDC;
+	border : 1px solid #ccc;
+	border-radius : 3px;
+	margin-left : 28px;
+	font-size : 16;
+	font-weight : 600;
+}
+
+.nameInputArea, .bankAccountInputArea {
+	width : 295px;
+	height : 45px;
+	background : #DCDCDC;
+	border : 1px solid #ccc;
+	border-radius : 3px;
+	margin-left : 46px;
+	font-size : 16;
+	font-weight : 600;
+}
+
+.bankAccountInputArea {
+	margin-left : 27px;
+}
+
+.depositInfoArea {
+	left : 15px;
+}
+
+.depositInfoText {
+    font-size: 13px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.56);
+}
+
+.hostRegistNameInputArea {
+	width : 295px;
+	height : 45px;
+	background : #DCDCDC;
+	border : 1px solid #ccc;
+	border-radius : 3px;
+	margin-left : 25px;
+	font-size : 16;
+	font-weight : 600;
+}
+
+.infoTableSubHeader_1 .inner_1 {
+	display : inline-block;
+	width : 100%;
+}
+
+.infoTableSubHeader_1 .inner_2 {
+	display : inline-block;
+	width : 100%;
+}
+
+.infoTableSubHeader_1 {
+	display : inline-block;
+	height : 100%;
+	padding-top : 20px;
+	padding-left : 20px;
+}
+
+.nameInfoText  {
+	position : relative;
+	left : 15px;
+	font-size: 13px;
+	font-weight: normal;
+	color: rgba(0, 0, 0, 0.56);
+}
+
+.bmNameInputArea {
+	width : 295px;
+	height : 45px;
+	background : #DCDCDC;
+	border : 1px solid #ccc;
+	border-radius : 3px;
+	margin-left : 18px;
+	font-size : 16;
+	font-weight : 600;
+}
+
+.houseType {
+	display : inline-block;
+	margin-left : 40px;
+	text-align : left;
+}
+
+.houseType label{
+	display : inline-block;
+	width : 150px;
+}
+
+.houseType_2 {
+	display : inline-block;
+	font-size : 13px;
+	margin-left : 40px;
+	text-align : left;
+}
+
+.houseType_2 label{
+	display : inline-block;
+	width : 130px;
+	height : 25px;
+}
+
+.bmNumberInputArea {
+	width : 295px;
+	height : 45px;
+	background : #DCDCDC;
+	border : 1px solid #ccc;
+	border-radius : 3px;
+	margin-left : 18px;
+	font-size : 16;
+	font-weight : 600;
+}
+
+.houseAddressInputArea {
+	width : 295px;
+	height : 45px;
+	background : #DCDCDC;
+	border : 1px solid #ccc;
+	border-radius : 3px;
+	margin-left : 60px;
+	font-size : 16;
+	font-weight : 600;
+}
+
+.regBtnArea {
+	width : 85%;
+	margin-left : auto;
+	margin-right : auto;
+}
+
+.regBtn {
+	background : #f2114c;
+	color : #fff;
+	width : 177px;
+	height : 48px;
+	font-size : 18px;
+	border : none;
+	border-radius : 5px;
+	margin-top : 15px;
+	margin-left : 350px;
+	cursor : pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
